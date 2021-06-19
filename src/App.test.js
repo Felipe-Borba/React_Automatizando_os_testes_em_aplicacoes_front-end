@@ -34,6 +34,16 @@ describe("Componente principal", () => {
       expect(novoSaldo).toBe(100);
     });
 
+    test("que é um saque com valor maior que o saldo, o valor vai ficar negativo", () => {
+      const valores = {
+        transacao: "saque",
+        valor: 250,
+      };
+      const novoSaldo = calcularNovoSaldo(valores, 150);
+
+      expect(novoSaldo).toBe(-100);
+    });
+
     test("que é um deposito, o valor vai aumentar", () => {
       const valores = {
         transacao: "deposito",
