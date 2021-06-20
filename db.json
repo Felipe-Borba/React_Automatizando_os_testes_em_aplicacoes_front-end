@@ -80,6 +80,36 @@
       "valor": "10",
       "data": "2021-6-19",
       "id": 13
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2021-6-19",
+      "id": 14
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2021-6-19",
+      "id": 15
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2021-6-19",
+      "id": 16
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2021-6-19",
+      "id": 17
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2021-6-19",
+      "id": 18
     }
   ]
 }
