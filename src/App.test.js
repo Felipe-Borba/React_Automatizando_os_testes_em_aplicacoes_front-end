@@ -2,6 +2,7 @@ import React from "react";
 import { fireEvent, render, screen } from "@testing-library/react";
 import App, { calcularNovoSaldo } from "./App";
 
+// for learning purpose, here api is not mocked
 describe("Componente principal", () => {
   describe("Quando eu abro o app do banco", () => {
     test("o nome é exibido", () => {
